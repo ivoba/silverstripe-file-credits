@@ -1,0 +1,9 @@
+---
+Name: silverstripe-file-credits
+---
+SilverStripe\Assets\File:
+  extensions:
+    - App\Extension\CreditsExtension
+SilverStripe\AssetAdmin\Forms\FileFormFactory:
+  extensions:
+    - App\Extension\FileFormFactoryExtension

@@ -1,0 +1,35 @@
+{
+  "name": "ivoba/silverstripe-file-credits",
+  "description": "File Credits Extension for SilverStripe CMS",
+  "keywords": [
+    "silverstripe",
+    "cms",
+    "image",
+    "file",
+    "credits"
+  ],
+  "license": "MIT",
+  "type": "silverstripe-vendormodule",
+  "authors": [
+    {
+      "name": "Ivo Bathke",
+      "email": "ivo.bathke@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "ext-imagick": "*",
+    "silverstripe/framework": "^4",
+    "silverstripe/asset-admin": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ivoba\\SilverStripe\\FileCredits\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
