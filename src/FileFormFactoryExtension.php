@@ -10,7 +10,7 @@ class FileFormFactoryExtension extends Extension
 {
     public function updateFormFields(FieldList $fields, $context)
     {
-        $creditsField = new TextField('Credits.Credits', _t(
+        $creditsField = new TextField('Credits', _t(
             __CLASS__.'.CREDITS',
             'Credits'
         ));
