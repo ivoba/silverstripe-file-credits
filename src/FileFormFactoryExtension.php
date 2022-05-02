@@ -10,24 +10,22 @@ class FileFormFactoryExtension extends Extension
 {
     public function updateFormFields(FieldList $fields, $context)
     {
-        $creditsField = new TextField('Credits', _t(
+        $creditsField = new TextField('Credits.Credits', _t(
             __CLASS__.'.CREDITS',
             'Credits'
         ));
         //adapt readonly behaviour, this is necessary to for fileSelectForm or fileEditForm difference
         $creditsField->setReadonly($fields->dataFieldByName('Title')->isReadonly());
-        $fields->push($creditsField);
 
         $creditLinkField = new TextField('CreditLink', _t(
             __CLASS__.'.CREDITLINK',
             'Link'
         ));
-        $fields->push($creditLinkField);
 
         $licenceField = new TextField('Licence', _t(
             __CLASS__.'.LICENCE',
             'Licence'
         ));
-        $fields->push($licenceField);
+        $fields->addFieldsToTab('Editor.Credits', [$creditsField, $creditLinkField, $licenceField]);
     }
 }
