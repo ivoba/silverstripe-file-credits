@@ -1,6 +1,6 @@
 <?php
 
-namespace App\SilverStripe\FileCredits;
+namespace Ivoba\SilverStripe\FileCredits;
 
 use SilverStripe\ORM\DataExtension;
 
