@@ -1,3 +1,5 @@
 de:
   App\Extension\FileFormFactoryExtension:
     CREDITS: "Rechte"
+    CREDITLINK: "Link"
+    LICENCE: "Lizenz"

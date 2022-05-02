@@ -1,3 +1,5 @@
 de:
   App\Extension\FileFormFactoryExtension:
     CREDITS: "Credits"
+    CREDITLINK: "Link"
+    LICENCE: "Licence"

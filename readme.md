@@ -1,25 +1,16 @@
 # SilverStripe Image Credits module
 
-Add credits to your image uploads
+Add credits to your file uploads.
 
-## Usage
+## Requirements
 
-    SilverStripe\Assets\Image:
-        extensions:
-            - App\Extension\ImageCreditsExtension
-    SilverStripe\AssetAdmin\Forms\ImageFormFactory:
-        extensions:
-            - App\Extension\FileFormFactoryExtension
+SilverStripe 4 CMS & Framework
 
+## Installation Instructions
+Via Composer:
 
+    composer require "ivoba/silverstripe-file-credits"
 
-### todo
-- more generic file-credits ?
-- can i clear extensions declared in module ?
-- i18n
-- Credits 
-- Credit Name
-- Credit Link
-- Credit Licence
-- https://medium.com/menlo-office/the-proper-way-to-give-credit-on-an-image-posted-on-a-website-8a8442bb2e28
-- add licence dropdown https://github.com/opendatanz/silverstripe-creativecommons
+Visit yoursite.com/dev/build?flush=1 to rebuild the database.
+
+In the FileAdmin you wil find the fields in the file detail pane. 
