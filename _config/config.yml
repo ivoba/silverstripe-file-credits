@@ -3,7 +3,7 @@ Name: silverstripe-file-credits
 ---
 SilverStripe\Assets\File:
   extensions:
-    - Ivoba\SilverStripe\CreditsExtension
+    - Ivoba\SilverStripe\FileCredits\CreditsExtension
 SilverStripe\AssetAdmin\Forms\FileFormFactory:
   extensions:
-    - Ivoba\SilverStripe\FileFormFactoryExtension
+    - Ivoba\SilverStripe\FileCredits\FileFormFactoryExtension
