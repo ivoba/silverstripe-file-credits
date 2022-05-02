@@ -18,7 +18,6 @@
   ],
   "require": {
     "php": ">=7.4.0",
-    "ext-imagick": "*",
     "silverstripe/framework": "^4",
     "silverstripe/asset-admin": "^1.4"
   },
