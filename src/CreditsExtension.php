@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Extension;
+namespace App\SilverStripe\FileCredits;
 
 use SilverStripe\ORM\DataExtension;
 

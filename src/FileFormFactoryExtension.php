@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Extension;
+namespace Ivoba\SilverStripe\FileCredits;
 
 use SilverStripe\Core\Extension;
 use SilverStripe\Forms\FieldList;
