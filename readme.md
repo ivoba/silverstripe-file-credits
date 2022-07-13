@@ -1,4 +1,4 @@
-# SilverStripe Image Credits module
+# SilverStripe File Credits module
 
 Add credits to your file uploads.
 
@@ -13,4 +13,7 @@ Via Composer:
 
 Visit yoursite.com/dev/build?flush=1 to rebuild the database.
 
-In the FileAdmin you wil find the fields in the file detail pane. 
+In the FileAdmin you wil find the fields in the file detail pane.
+
+## License
+MIT
