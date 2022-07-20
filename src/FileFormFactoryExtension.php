@@ -14,8 +14,6 @@ class FileFormFactoryExtension extends Extension
             __CLASS__.'.CREDITS',
             'Credits'
         ));
-        //adapt readonly behaviour, this is necessary to for fileSelectForm or fileEditForm difference
-        $creditsField->setReadonly($fields->dataFieldByName('Title')->isReadonly());
 
         $creditLinkField = new TextField('CreditLink', _t(
             __CLASS__.'.CREDITLINK',
